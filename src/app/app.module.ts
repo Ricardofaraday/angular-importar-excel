@@ -4,13 +4,18 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { DataTablesModule } from 'angular-datatables';
+import { DatatablesComponent } from './components/datatables/datatables.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DatatablesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DataTablesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

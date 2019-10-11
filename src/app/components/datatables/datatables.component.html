@@ -1,0 +1,24 @@
+<div class="container mt-5">
+
+  <input id="input-uploadExcel" type="file" (change)="excelUpload($event)" accept=".xlsx, .xls">
+  <button (click)="read()">Read Data</button>
+
+  <hr>
+  <table datatable class="row-border hover">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>First name</th>
+        <th>Last name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let persona of personas">
+        <td>{{ persona.codigo }}</td>
+        <td>{{ persona.nombre }}</td>
+        <td>{{ persona.apellido }}</td>
+      </tr>    
+    </tbody>
+  </table>
+
+</div>

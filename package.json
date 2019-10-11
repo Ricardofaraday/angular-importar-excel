@@ -19,9 +19,16 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
+    "@types/datatables.net": "^1.10.17",
+    "@types/jquery": "^3.3.31",
+    "angular-datatables": "^8.0.0",
     "core-js": "^2.5.4",
+    "datatables.net": "^1.10.20",
+    "datatables.net-dt": "^1.10.20",
+    "jquery": "^3.4.1",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
+    "xlsx": "^0.15.1",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
